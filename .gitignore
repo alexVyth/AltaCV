@@ -1,4 +1,7 @@
 ## Core latex/pdflatex auxiliary files:
+*.lua
+*.pdf
+*.timestamp
 *.aux
 *.lof
 *.log
@@ -11,6 +14,9 @@
 *.cb
 *.cb2
 .*.lb
+.*.lua
+.*.pdf
+.*.timestamp
 
 ## Intermediate documents:
 *.dvi
