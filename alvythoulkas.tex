@@ -85,7 +85,7 @@
 \renewcommand{\ratingmarker}{\faCircle}
 
 %% sample.bib contains your publications
-\addbibresource{sample.bib}
+\addbibresource{references.bib}
 
 \begin{document}
 \name{Alexandros Vythoulkas}
@@ -97,7 +97,7 @@
 
 \personalinfo{%
   % Not all of these are required!
-  \email{alvythoulkas@protonmail.com}
+  \email{alvythoulkas@gmail.com}
   \phone{+30 6986233908}
 %  \mailaddress{Vasilikon 24, 10442}
   \location{Athens, Greece}\\
@@ -125,6 +125,10 @@
 % Start a 2-column paracol. Both the left and right columns will automatically
 % break across pages if things get too long.
 \begin{paracol}{2}
+\cvsection{Experience}
+\cvevent{Python Developer}{Free Lance}{December 2020 -- Ongoing}{Convert Group}
+Delivering production-ready website crawlers, using Python with Scrapy framework and PostgreSQL database system.
+
 \cvsection{Education}
 \cvevent{Data Science and Machine Learning}{Master}{September 2019 -- Ongoing}{NTUA}
 \divider
@@ -132,15 +136,15 @@
 
 \cvsection{Projects}
 \cvevent{Data Harmonization of Satellite Images}{Master Thesis}{2020 - Ongoing}{}
-Constructing a dataflow to harmonize satellite images of different sensors, resulting in a corrected uniform product.
+Constructing a dataflow to harmonize satellite images of different sensors, resulting in a corrected uniform product in Prefect.
 
 \divider \medskip
 \cvevent{Video Classification using Machine Learning Methods}{Diploma Thesis}{2018-2019}{}
-Classification of mouse behavior in medical video dataset using Deep Learning techniques like 3D CNN and LSTM Networks.
+Classification of mouse behavior in medical video dataset using Deep Learning techniques like 3D CNN and LSTM Networks in Keras.
 
 \divider \medskip
 \cvevent{Instance Segmentation using Deep Learning Methods}{Diploma Project}{2018}{}
-Instance segmentation of mouses in medical video dataset using Regional CNN Networks like Mask-RCNN.
+Instance segmentation of mouses in medical video dataset using Regional CNN Networks like Mask-RCNN in TensorFlow.
 
 % use ONLY \newpage if you want to force a page break for
 % ONLY the current column
@@ -162,19 +166,26 @@ Instance segmentation of mouses in medical video dataset using Regional CNN Netw
 
 \divider\smallskip
 
+\cvtag{Software Engineering}
 \cvtag{Machine Learning}
-\cvtag{Deep Learning}
-
 \divider\smallskip
 
-\cvtag{python} \cvtag{SQL} \cvtag{R} \\
-\cvtag{Linux} \cvtag{git} \cvtag{\LaTeX}\\
-\cvtag{Apache Hadoop} \cvtag{Apache Spark}
+\cvtag{python} \cvtag{PyTorch} \cvtag{flask} \\ 
+\cvtag{Prefect} \cvtag{Apache Spark} \\
+\cvtag{SQL} \cvtag{PostgreSQL} \cvtag{SQLAlchemy} \\
+
+\cvtag{Linux} \cvtag{git} \cvtag{Docker} \cvtag{\LaTeX}\\
 
 
 \cvsection{Languages}
 
+\cvtag{Greek}
 \cvtag{English}
+
+\cvsection{Hobbies}
+\cvtag{Running}
+\cvtag{Playing guitar}
+\cvtag{Technology}
 
 %% Yeah I didn't spend too much time making all the
 %% spacing consistent... sorry. Use \smallskip, \medskip,
